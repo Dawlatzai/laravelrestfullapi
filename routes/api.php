@@ -42,7 +42,7 @@ Route::resource('sellers', 'Seller\SellerController', ['only' => ['index', 'show
 /**
  * Route for Transaction Resources
  */
-Route::resource('transaction', 'Transaction\TransactionController', ['only' => ['index', 'show']]);
+Route::resource('transactions', 'Transaction\TransactionController', ['only' => ['index', 'show']]);
 
 /**
  * Route for User Resources
